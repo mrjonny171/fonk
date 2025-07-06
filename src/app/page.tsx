@@ -215,7 +215,7 @@ export default function Home() {
             <div className="bg-orange-700/30 backdrop-blur-lg rounded-3xl p-8 border-2 border-orange-400/30">
               <h3 className="text-3xl font-bold text-yellow-200 mb-6">🚀 Join the Movement!</h3>
               <p className="text-white text-lg leading-relaxed">
-                This isn't just another meme coin - it's a <span className="text-yellow-200 font-bold">revolution</span> of fun! 
+                This isn&apos;t just another meme coin - it&apos;s a <span className="text-yellow-200 font-bold">revolution</span> of fun! 
                 Join thousands of FONK holders who believe in the power of memes, 
                 community, and making crypto <span className="text-orange-200 font-bold">FUN</span> again!
               </p>
