@@ -24,6 +24,17 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
+  icons: {
+    icon: [
+      {
+        url: "/memes_gallery/WsgEl7rO.jpg",
+        sizes: "32x32",
+        type: "image/jpeg",
+      },
+    ],
+    shortcut: "/memes_gallery/WsgEl7rO.jpg",
+    apple: "/memes_gallery/WsgEl7rO.jpg",
+  },
   openGraph: {
     title: "$FONK - The Ultimate Farting Bonk Meme Coin",
     description: "FONK is the ultimate meme coin that combines the power of farting with the energy of bonking!",
@@ -31,7 +42,7 @@ export const metadata: Metadata = {
     siteName: "$FONK",
     images: [
       {
-        url: "/fonk.jpg",
+        url: "/memes_gallery/WsgEl7rO.jpg",
         width: 1200,
         height: 630,
         alt: "FONK Logo",
@@ -44,7 +55,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "$FONK - The Ultimate Farting Bonk Meme Coin",
     description: "FONK is the ultimate meme coin that combines the power of farting with the energy of bonking!",
-    images: ["/fonk.jpg"],
+    images: ["/memes_gallery/WsgEl7rO.jpg"],
     creator: "@fonktoken",
   },
   robots: {
@@ -67,6 +78,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/memes_gallery/WsgEl7rO.jpg" type="image/jpeg" />
+        <link rel="shortcut icon" href="/memes_gallery/WsgEl7rO.jpg" type="image/jpeg" />
+        <link rel="apple-touch-icon" href="/memes_gallery/WsgEl7rO.jpg" />
+      </head>
       <body
         className={`${geist.variable} ${geistMono.variable} antialiased`}
       >
